@@ -21,8 +21,8 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Configuration.browserSize = "1920x1080";
 
-        //Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), System.getProperty("url"));
-        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), credentials.url());
+        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), System.getProperty("url"));
+        //Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), credentials.url());
         //Configuration.remote = format("https://%s:%s@selenoid.autotests.cloud/wd/hub/", credentials.login(), credentials.password());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
