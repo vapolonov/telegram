@@ -4,7 +4,8 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.aeonbits.owner.ConfigFactory;
-import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import ru.apolonov.config.CredentialsConfig;
 import ru.apolonov.helpers.Attach;
@@ -21,7 +22,8 @@ public class TestBase {
         Configuration.browserSize = "1920x1080";
 
         //Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), System.getProperty("url"));
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
+        Configuration.remote = format("https://%s:%s@%s", credentials.login(), credentials.password(), credentials.url());
+        //Configuration.remote = format("https://%s:%s@selenoid.autotests.cloud/wd/hub/", credentials.login(), credentials.password());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
