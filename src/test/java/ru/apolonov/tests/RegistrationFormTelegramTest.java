@@ -68,7 +68,7 @@ public class RegistrationFormTelegramTest extends TestBase {
             });
 
             step("Прикрепляем файл", () -> {
-                $("#uploadPicture").uploadFile(new File("src/test/resources/img/new.jpg"));
+                $("#uploadPicture").uploadFile(new File("src/test/resources/img/new.png"));
             });
 
             step("Заполняем адрес", () -> {
@@ -98,7 +98,7 @@ public class RegistrationFormTelegramTest extends TestBase {
                     text("09 September,1974"),
                     text("Maths, English"),
                     text("Sports, Music"),
-                    text("new.jpg"),
+                    text("new.png"),
                     text(country + ", " + city + ", " + street + ", " + houseNumber),
                     text("Haryana Panipat"));
         });
