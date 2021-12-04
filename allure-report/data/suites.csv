@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 04 18:28:05 MSK 2021","Sat Dec 04 18:28:41 MSK 2021","35744","","ru.apolonov.tests.RegistrationFormTelegramTest","","ru.apolonov.tests.RegistrationFormTelegramTest","fillFormTest","Форма регистрации",""

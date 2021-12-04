@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.apolonov.tests.RegistrationFormTelegramTest",
+    "children" : [ {
+      "name" : "Форма регистрации",
+      "uid" : "60db74f5b3623261",
+      "parentUid" : "fe9424f8ee1517b2e848278e9ddc91e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638631685852,
+        "stop" : 1638631721596,
+        "duration" : 35744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "fe9424f8ee1517b2e848278e9ddc91e4"
+  } ]
+}

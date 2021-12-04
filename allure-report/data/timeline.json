@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PARKAN",
+    "children" : [ {
+      "name" : "416@PARKAN.Test worker(13)",
+      "children" : [ {
+        "name" : "Форма регистрации",
+        "uid" : "60db74f5b3623261",
+        "parentUid" : "8d4369c24919c8ebb708c47be9e85df4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1638631685852,
+          "stop" : 1638631721596,
+          "duration" : 35744
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d4369c24919c8ebb708c47be9e85df4"
+    } ],
+    "uid" : "a5e4848c6eeecd2ec255e8b01993e8e5"
+  } ]
+}

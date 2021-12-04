@@ -1,0 +1,11 @@
+[ {
+  "uid" : "60db74f5b3623261",
+  "name" : "Форма регистрации",
+  "time" : {
+    "start" : 1638631685852,
+    "stop" : 1638631721596,
+    "duration" : 35744
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

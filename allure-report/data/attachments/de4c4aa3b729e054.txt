@@ -1,0 +1,1 @@
+[2021-12-04T18:28:17+0300] [WARNING] https://cdn.ampproject.org/rtv/012111011823000/v0/amp-ad-exit-0.1.mjs 2 Unrecognized feature: 'attribution-reporting'.

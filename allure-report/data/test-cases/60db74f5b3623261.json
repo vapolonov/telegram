@@ -1,0 +1,706 @@
+{
+  "uid" : "60db74f5b3623261",
+  "name" : "Форма регистрации",
+  "fullName" : "ru.apolonov.tests.RegistrationFormTelegramTest.fillFormTest",
+  "historyId" : "d928f736cf9a1cfeb5346c422177a905",
+  "time" : {
+    "start" : 1638631685852,
+    "stop" : 1638631721596,
+    "duration" : 35744
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открываем страницу с формой регистрации",
+      "time" : {
+        "start" : 1638631685860,
+        "stop" : 1638631696875,
+        "duration" : 11015
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"open\") https://demoqa.com/automation-practice-form",
+        "time" : {
+          "start" : 1638631685919,
+          "stop" : 1638631696875,
+          "duration" : 10956
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверяем что на странице есть заголовок \"Student Registration Form\"",
+      "time" : {
+        "start" : 1638631696876,
+        "stop" : 1638631697552,
+        "duration" : 676
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\".practice-form-wrapper\") should have(text 'Student Registration Form')",
+        "time" : {
+          "start" : 1638631696911,
+          "stop" : 1638631697552,
+          "duration" : 641
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Заполняем форму регистрации данными",
+      "time" : {
+        "start" : 1638631697553,
+        "stop" : 1638631713852,
+        "duration" : 16299
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Заполняем данные пользователя",
+        "time" : {
+          "start" : 1638631697553,
+          "stop" : 1638631701906,
+          "duration" : 4353
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#firstName\") set value(Shirely)",
+          "time" : {
+            "start" : 1638631697553,
+            "stop" : 1638631698496,
+            "duration" : 943
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#lastName\") set value(Collins)",
+          "time" : {
+            "start" : 1638631698496,
+            "stop" : 1638631699353,
+            "duration" : 857
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#userEmail\") set value(nelson.jacobi@yahoo.com)",
+          "time" : {
+            "start" : 1638631699353,
+            "stop" : 1638631700215,
+            "duration" : 862
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#genterWrapper/by text: Female\") click()",
+          "time" : {
+            "start" : 1638631700218,
+            "stop" : 1638631701055,
+            "duration" : 837
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#userNumber\") set value(8118455456)",
+          "time" : {
+            "start" : 1638631701055,
+            "stop" : 1638631701906,
+            "duration" : 851
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 5,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Выбираем дату рождения",
+        "time" : {
+          "start" : 1638631701906,
+          "stop" : 1638631705619,
+          "duration" : 3713
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#dateOfBirthInput\") click()",
+          "time" : {
+            "start" : 1638631701906,
+            "stop" : 1638631702600,
+            "duration" : 694
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\".react-datepicker__month-select\") select option(September)",
+          "time" : {
+            "start" : 1638631702600,
+            "stop" : 1638631703809,
+            "duration" : 1209
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\".react-datepicker__year-select\") select option(1974)",
+          "time" : {
+            "start" : 1638631703809,
+            "stop" : 1638631704985,
+            "duration" : 1176
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\".react-datepicker__day--009:not(.react-datepicker__day--outside-month)\") click()",
+          "time" : {
+            "start" : 1638631704985,
+            "stop" : 1638631705619,
+            "duration" : 634
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Устанавливаем предметы",
+        "time" : {
+          "start" : 1638631705619,
+          "stop" : 1638631708379,
+          "duration" : 2760
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#subjectsInput\") set value(Maths)",
+          "time" : {
+            "start" : 1638631705619,
+            "stop" : 1638631706496,
+            "duration" : 877
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#subjectsInput\") press enter()",
+          "time" : {
+            "start" : 1638631706496,
+            "stop" : 1638631707214,
+            "duration" : 718
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#subjectsInput\") set value(English)",
+          "time" : {
+            "start" : 1638631707214,
+            "stop" : 1638631707899,
+            "duration" : 685
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#subjectsInput\") press enter()",
+          "time" : {
+            "start" : 1638631707899,
+            "stop" : 1638631708379,
+            "duration" : 480
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Выбираем хобби",
+        "time" : {
+          "start" : 1638631708379,
+          "stop" : 1638631709691,
+          "duration" : 1312
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#hobbiesWrapper/by text: Sports\") click()",
+          "time" : {
+            "start" : 1638631708380,
+            "stop" : 1638631709037,
+            "duration" : 657
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#hobbiesWrapper/by text: Music\") click()",
+          "time" : {
+            "start" : 1638631709038,
+            "stop" : 1638631709691,
+            "duration" : 653
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Прикрепляем файл",
+        "time" : {
+          "start" : 1638631709692,
+          "stop" : 1638631710366,
+          "duration" : 674
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#uploadPicture\") upload file(src\\test\\resources\\img\\new.png)",
+          "time" : {
+            "start" : 1638631709692,
+            "stop" : 1638631710366,
+            "duration" : 674
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Заполняем адрес",
+        "time" : {
+          "start" : 1638631710367,
+          "stop" : 1638631711072,
+          "duration" : 705
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#currentAddress\") set value(Cote d'Ivoire, North Tonda, Zulauf Lodge, 21453)",
+          "time" : {
+            "start" : 1638631710378,
+            "stop" : 1638631711072,
+            "duration" : 694
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Выбираем штат",
+        "time" : {
+          "start" : 1638631711072,
+          "stop" : 1638631712704,
+          "duration" : 1632
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#state\") scroll to()",
+          "time" : {
+            "start" : 1638631711072,
+            "stop" : 1638631711532,
+            "duration" : 460
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#state\") click()",
+          "time" : {
+            "start" : 1638631711532,
+            "stop" : 1638631712044,
+            "duration" : 512
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#stateCity-wrapper/by text: Haryana\") click()",
+          "time" : {
+            "start" : 1638631712044,
+            "stop" : 1638631712704,
+            "duration" : 660
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Выбираем город",
+        "time" : {
+          "start" : 1638631712704,
+          "stop" : 1638631713852,
+          "duration" : 1148
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "$(\"#city\") click()",
+          "time" : {
+            "start" : 1638631712704,
+            "stop" : 1638631713204,
+            "duration" : 500
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "$(\"#stateCity-wrapper/by text: Panipat\") click()",
+          "time" : {
+            "start" : 1638631713204,
+            "stop" : 1638631713852,
+            "duration" : 648
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 30,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Отправляем форму",
+      "time" : {
+        "start" : 1638631713852,
+        "stop" : 1638631714366,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#submit\") click()",
+        "time" : {
+          "start" : 1638631713852,
+          "stop" : 1638631714366,
+          "duration" : 514
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверяем успешную отправку формы",
+      "time" : {
+        "start" : 1638631714366,
+        "stop" : 1638631719387,
+        "duration" : 5021
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "$(\"#example-modal-sizes-title-lg\") should have(text 'Thanks for submitting the form')",
+        "time" : {
+          "start" : 1638631714366,
+          "stop" : 1638631714787,
+          "duration" : 421
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "$(\".table-responsive\") should have([text 'Shirely Collins', text 'nelson.jacobi@yahoo.com', text 'Female', text '8118455456', text '09 September,1974', text 'Maths, English', text 'Sports, Music', text 'new.png', text 'Cote d'Ivoire, North Tonda, Zulauf Lodge, 21453', text 'Haryana Panipat'])",
+        "time" : {
+          "start" : 1638631714788,
+          "stop" : 1638631719387,
+          "duration" : 4599
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3bece1a76b1feece",
+      "name" : "Last screenshot",
+      "source" : "3bece1a76b1feece.png",
+      "type" : "image/png",
+      "size" : 316277
+    }, {
+      "uid" : "77bc2813475af227",
+      "name" : "Page source",
+      "source" : "77bc2813475af227.html",
+      "type" : "text/plain",
+      "size" : 47363
+    }, {
+      "uid" : "de4c4aa3b729e054",
+      "name" : "Browser console logs",
+      "source" : "de4c4aa3b729e054.txt",
+      "type" : "text/plain",
+      "size" : 155
+    }, {
+      "uid" : "9c1ec7a3e51c56cc",
+      "name" : "Video",
+      "source" : "9c1ec7a3e51c56cc.html",
+      "type" : "text/html",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 40,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "registrationTest"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.apolonov.tests.RegistrationFormTelegramTest]/[method:fillFormTest()]"
+  }, {
+    "name" : "owner",
+    "value" : "Vasiliy Apolonov"
+  }, {
+    "name" : "host",
+    "value" : "PARKAN"
+  }, {
+    "name" : "thread",
+    "value" : "416@PARKAN.Test worker(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.apolonov.tests.RegistrationFormTelegramTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.apolonov.tests.RegistrationFormTelegramTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "fillFormTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.apolonov.tests.RegistrationFormTelegramTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Vasiliy Apolonov",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "registrationTest" ]
+  },
+  "source" : "60db74f5b3623261.json",
+  "parameterValues" : [ ]
+}
