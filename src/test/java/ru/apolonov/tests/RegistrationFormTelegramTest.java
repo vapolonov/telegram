@@ -15,7 +15,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
 public class RegistrationFormTelegramTest extends TestBase {
-    public String url = "https://demoqa.com/automation-practice-form";
+    public String urlSite = "https://demoqa.com/automation-practice-form";
     Faker faker = new Faker();
 
     String firstName = faker.name().firstName(),
@@ -34,7 +34,7 @@ public class RegistrationFormTelegramTest extends TestBase {
     void fillFormTest() {
 
         step("Открываем страницу с формой регистрации", () ->
-                open(url));
+                open(urlSite));
 
         step("Проверяем что на странице есть заголовок \"Student Registration Form\"", () -> {
             $(".practice-form-wrapper").shouldHave(text("Student Registration Form"));
