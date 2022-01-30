@@ -1,4 +1,26 @@
 //// local
-java "-DprojectName=PROJECT_NAME" "-Denv=ENVIRONMENT" "-DreportLink=BUILD_URL" "-Dcomm=Any comment here" "-Dconfig.file=src/test/notifications/telegram.json" -jar allure-notifications-3.1.2.jar
+java  \
+"-DprojectName=PROJECT_NAME" \
+"-Denv=ENVIRONMENT" \
+"-DreportLink=BUILD_URL" \
+"-Dcomm=Any comment here" \
+"-Dconfig.file=src/test/notifications/telegram.json" \
+-jar allure-notifications-3.1.2.jar
+
+//если не запускается то переделать в однустроку
+
+//// использовать файл .jar из jenkins
+cd ..
+FILE=./allure-notifications-${ALLURE_NOTIFICATIONS_VERSION}.jar
+if [ ! -f "$FILE" ]; then
+   wget https://github.com/qa-guru/allure-notifications/releases/download/${ALLURE_NOTIFICATIONS_VERSION}/allure-notifications-${ALLURE_NOTIFICATIONS_VERSION}.jar
+fi
+
+cd ..
+FILE=./allure-notifications-3.1.2.jar
+if [ ! -f "$FILE" ]; then
+   wget https://github.com/qa-guru/allure-notifications/releases/download/3.1.2/allure-notifications-3.1.2.jar
+fi
+
 
 //// remote

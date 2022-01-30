@@ -15,13 +15,13 @@
       "project": ""
     },
     "mail": {
-      "host": "",
-      "port": "",
-      "username": "",
-      "password": "",
+      "host": "smtp.gmail.com",
+      "port": "465",
+      "username": "vasvap@gmail.com",
+      "password": "Igfyujen!722",
       "enableSSL": false,
-      "from": "",
-      "recipient": ""
+      "from": "noreplyallurereport@gmail.com",
+      "recipient": "vasvap@gmail.com"
     },
     "mattermost": {
       "url": ""
