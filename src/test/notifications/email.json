@@ -20,7 +20,7 @@
       "username": "vasvap@gmail.com",
       "password": "Igfyujen!722",
       "enableSSL": true,
-      "from": "noreplyallurereport@gmail.com",
+      "from": "vasvap@gmail.com",
       "recipient": "vasvap@gmail.com"
     },
     "mattermost": {
