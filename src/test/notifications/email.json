@@ -19,7 +19,7 @@
       "port": "465",
       "username": "vasvap@gmail.com",
       "password": "Igfyujen!722",
-      "enableSSL": false,
+      "enableSSL": true,
       "from": "noreplyallurereport@gmail.com",
       "recipient": "vasvap@gmail.com"
     },
